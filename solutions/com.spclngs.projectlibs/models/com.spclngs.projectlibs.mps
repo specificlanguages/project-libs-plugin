@@ -976,9 +976,9 @@
             </node>
             <node concept="liA8E" id="4c93EIYeih8" role="2OqNvi">
               <ref role="37wK5l" to="bnjk:~PresentationData.setIcon(javax.swing.Icon)" resolve="setIcon" />
-              <node concept="10M0yZ" id="4c93EIYgrsJ" role="37wK5m">
-                <ref role="3cqZAo" to="z2i8:~ExpUiIcons$Nodes.Library" resolve="Library" />
-                <ref role="1PxDUh" to="z2i8:~ExpUiIcons$Nodes" resolve="ExpUiIcons.Nodes" />
+              <node concept="10M0yZ" id="6PiUKHfuVjs" role="37wK5m">
+                <ref role="3cqZAo" to="z2i8:~AllIcons$Nodes.Library" resolve="Library" />
+                <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="AllIcons.Nodes" />
               </node>
             </node>
           </node>
@@ -1233,9 +1233,9 @@
             </node>
             <node concept="liA8E" id="4c93EIYg6r5" role="2OqNvi">
               <ref role="37wK5l" to="bnjk:~PresentationData.setIcon(javax.swing.Icon)" resolve="setIcon" />
-              <node concept="10M0yZ" id="4c93EIYgjdl" role="37wK5m">
-                <ref role="3cqZAo" to="z2i8:~ExpUiIcons$Nodes.LibraryFolder" resolve="LibraryFolder" />
-                <ref role="1PxDUh" to="z2i8:~ExpUiIcons$Nodes" resolve="ExpUiIcons.Nodes" />
+              <node concept="10M0yZ" id="6PiUKHfvjdc" role="37wK5m">
+                <ref role="3cqZAo" to="z2i8:~AllIcons$Nodes.PpLibFolder" resolve="PpLibFolder" />
+                <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="AllIcons.Nodes" />
               </node>
             </node>
           </node>

@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/com.spclngs.projectlibs" />
   <property name="build.layout" location="${build.dir}/artifacts/com.spclngs.projectlibs" />
   <property name="mps_home" location="" />
-  <property name="version" value="1.0.0" />
+  <property name="version" value="2.0.0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -94,7 +94,8 @@
         <vendor url="https://specificlanguages.com">Sergej Koščejev</vendor>
         <depends>com.intellij.modules.mps</depends>
         <depends>com.intellij.modules.mps</depends>
-        <idea-version since-build="241" />
+        <change-notes><![CDATA[The plugin now supports MPS 2025.1]]></change-notes>
+        <idea-version since-build="251" />
         <extensions defaultExtensionNs="com.intellij">
           <treeStructureProvider implementation="com.spclngs.projectlibs.ProjectLibrariesTreeStructureProvider" />
         </extensions>

@@ -13,6 +13,9 @@
       <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
         <property id="6666499814681541920" name="text" index="2pMdty" />
       </concept>
+      <concept id="6666499814681299066" name="jetbrains.mps.core.xml.structure.XmlCDATA" flags="ng" index="2pNm8S">
+        <property id="1622293396948985395" name="content" index="3o6aOc" />
+      </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
         <property id="6999033275467544021" name="shortEmptyNotation" index="qg3DV" />
@@ -229,6 +232,12 @@
       </node>
       <node concept="m$_yC" id="4c93EIY7oDj" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
+      </node>
+      <node concept="2pNNFK" id="6PiUKHfvuUu" role="20twgj">
+        <property role="2pNNFO" value="change-notes" />
+        <node concept="2pNm8S" id="6PiUKHfvuUv" role="3o6s8t">
+          <property role="3o6aOc" value="The plugin now supports MPS 2025.1" />
+        </node>
       </node>
       <node concept="2pNNFK" id="255w6ub2QYc" role="20twgj">
         <property role="2pNNFO" value="idea-version" />
